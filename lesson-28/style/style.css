@@ -1,0 +1,45 @@
+.text1 {
+    font-family: "open sans", arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text2 {
+    text-decoration: line-through;
+}
+
+.text3 {
+    text-transform: uppercase;
+}
+
+.text4 {
+    word-spacing: 30px;
+text-shadow: 1px 1px 1px #c2179d;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+}
+
+.text5 {
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-style: solid ;
+}
+
+.text6 {
+    font-family: "roboto-mono", sans-serif;
+    font-size: 16px;
+    text-indent: 20px;
+}
+.name {
+    font-weight: 700;
+}
+
+.concept {
+    font-style: italic;
+}
+
+.mistake {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
