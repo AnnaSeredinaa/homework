@@ -1,0 +1,31 @@
+.block {
+    background: #e7e1eb;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 500px;
+    padding: 5px;
+    overflow: auto;
+    border: 1px solid;
+}
+
+.inline {
+    display: inline-block;
+    background: #b1a691;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 5px;
+    box-shadow: inset 0px 0px 5px #464343;
+
+}
+
+.block2 {
+    padding-top: 10px;
+}
+.block3 {
+    padding-top: 10px;
+}
+
+* {
+    box-sizing: border-box;
+} 
