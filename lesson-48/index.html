@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Форма 1</legend>
+            <input type="text">
+            <select name="formselect">
+                <option value="">Выбрать</option>
+                <option value="Var1">Вариант 1</option>
+                <option value="Var2">Вариант 2</option>
+                <option value="Var3">Вариант 3</option>
+                <option value="Var4">Вариант 4</option>
+                <option value="Var5">Вариант 5</option>
+                <option value="Var6">Вариант 6</option>
+            </select>
+            <br>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </fieldset>
+        <fieldset>
+            <legend>Форма 2</legend>
+            <label> Тема
+                <input type="text">
+            </label>
+
+            <br>
+            <textarea id="textarea" cols="50" rows="20"></textarea>
+            <br>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </fieldset>
+        <fieldset>
+            <legend>Форма 3</legend>
+            <label> Ваше имя
+                <input type="text" placeholder="Петр Романов" required>
+            </label>
+            <br>
+            <label>
+                Emaill
+                <input type="email" placeholder="dsssdkk.@hmail.com" required>
+            </label>
+            <br>
+            <label>
+                Пароль
+                <input type="password" required>
+            </label>
+            <br>
+            <label>
+                Возраст
+                <input type="number" min="13" max="27" required>
+            </label>
+            <br>
+            <label>
+                Номер
+                <input type="tel" placeholder="+7-000-000-00-00">
+            </label>
+            <br>
+            <label>
+                Дата рождения
+                <input type="date">
+            </label>
+            <br>
+            <label>
+                Пол
+                <input type="radio"> Муж
+                <input type="radio"> Жен
+            </label>
+            <br>
+            <label>
+                С правилами ознакомлен(а)
+                <input type="checkbox">
+            </label>
+            <br>
+            <label>
+                Фото
+                <input type="file">
+            </label>
+            <br>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </fieldset>
+        <fieldset>
+            <legend>Форма 4</legend>
+            <label>Поиск
+                <input type="search">
+            </label>
+        </fieldset>
+    </form>
+</body>
+
+</html>
